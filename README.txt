@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8
 === (0:35:39) Part 3: File structure
 === (0:43:32) Part 4: The Navbar Section
 === (1:13:25) Part 5: The Intro Section
- (1:57:00) Part 6: The Companies Section
+=== (1:57:00) Part 6: The Companies Section
  (2:11:11) Part 7: The Services Section
  (2:41:20) Part 8: Testimonials Section
  (3:11:10) Part 9: The FAQ Section

@@ -25,3 +25,27 @@
     font-size: 1rem;
   }
 }
+
+.heading-line::before {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 0.1rem;
+
+  background-color: $primary;
+
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 0.5rem;
+
+  background-color: $primary;
+
+  // padding-top: 0.5rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
