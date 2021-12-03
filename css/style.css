@@ -24,7 +24,7 @@
 }
 
 .heading-line::before {
-  content: "";
+  content: '';
   display: block;
   width: 10rem;
   height: 0.1rem;
@@ -33,13 +33,17 @@
 }
 
 .heading-line::after {
-  content: "";
+  content: '';
   display: block;
   width: 2rem;
   height: 0.5rem;
   background-color: #9926f0;
   margin: 0 auto;
   margin-bottom: 1rem;
+}
+
+.display-3 {
+  font-family: 'Poppins', sans-serif;
 }
 
 @keyframes pulse-border {
