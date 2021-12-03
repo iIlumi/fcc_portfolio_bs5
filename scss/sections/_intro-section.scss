@@ -6,6 +6,20 @@
   height: 100%;
 }
 
+.video-box {
+  position: relative;
 
-.video-box{
+  a {
+    // có thể dùng class BS thì khỏi mixin
+    // Chú ý mixin trong clip là util riêng của BS
+    // @include absoluteCenter;
+  }
+
+  span {
+  }
+
+  i {
+    font-size: 6rem;
+    color: $secondary;
+  }
 }

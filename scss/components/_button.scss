@@ -37,6 +37,7 @@
     }
   }
 
+  // Chú ý media này la mixin-utils của BS --> ko nên gọi hoặc phải import riêng
   @include media-breakpoint-down(sm) {
     display: none;
   }

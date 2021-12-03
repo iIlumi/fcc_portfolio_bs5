@@ -1,5 +1,7 @@
 @import './custom';
 
+@import '../node_modules/bootstrap/scss/mixins/breakpoints';
+// ko gọi riêng được vì lại dính đến định nghĩa breakpoint riêng và value của BS
 @import 'components/mixins';
 @import 'components/typography';
 
