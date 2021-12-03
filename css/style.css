@@ -13,8 +13,44 @@
 .display-2--description {
   display: block;
   margin-top: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: none;
+}
+
+@media (max-width: 991.98px) {
+  .display-2--description {
+    font-size: 1rem;
+  }
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.border-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  border: 0.55rem solid #fff;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+}
+
+.border-animation--border-1 {
+  animation-delay: 1s;
+}
+
+.border-animation--border-2 {
+  animation-delay: 1.5s;
 }
 
 .btn-rounded {

@@ -9,17 +9,16 @@
 .video-box {
   position: relative;
 
-  a {
-    // có thể dùng class BS thì khỏi mixin
-    // Chú ý mixin trong clip là util riêng của BS
-    // @include absoluteCenter;
-  }
+  // có thể dùng class BS thì khỏi mixin
+  // Chú ý mixin trong clip là util riêng của BS
 
-  span {
-  }
+  // a {
+  // @include absoluteCenter;
+  // }
 
   i {
     font-size: 6rem;
     color: $secondary;
   }
 }
+

@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/bootstrap-mod.css" />
+    <link rel="stylesheet" href="./assets/vendors/css/glightbox.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Portfolio-bs5</title>
@@ -94,15 +95,27 @@
               <img
                 src="images/arts/intro-section-illustration.png"
                 alt="video illutration"
-                class=""
+                class="img-fluid"
               />
               <a
                 href="#"
-                class="position-absolute top-50 start-50 translate-middle"
+                class="
+                  glightbox
+                  position-absolute
+                  top-50
+                  start-50
+                  translate-middle
+                "
               >
                 <span>
                   <i class="fas fa-play-circle"></i>
                 </span>
+                <span
+                  class="border-animation border-animation--border-1"
+                ></span>
+                <span
+                  class="border-animation border-animation--border-2"
+                ></span>
               </a>
             </div>
           </div>
@@ -118,6 +131,16 @@
         ></path>
       </svg>
     </section>
+
+    <script src="./assets/vendors/js/glightbox.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        href: 'https://youtu.be/iJKCj8uAHz8',
+        type: 'video',
+        source: 'youtube', //vimeo, youtube or local
+        width: 900,
+      });
+    </script>
     <script src="./js/bootstrap.bundle.js"></script>
   </body>
 </html>
