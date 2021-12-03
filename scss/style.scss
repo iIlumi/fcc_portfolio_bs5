@@ -1,12 +1,16 @@
 @import './custom';
 
-@import './base/variables';
-@import './base/mixins';
+@import 'components/animations';
+@import 'components/button';
+@import 'components/mixins';
+@import 'components/typography';
 
-@import './base/reset';
-@import './base/globals';
-
-@import './components/button';
-
-@import './layout/header';
-@import './layout/footer';
+@import 'sections/navbar';
+@import 'sections/intro-section';
+@import 'sections/companies';
+@import 'sections/services';
+@import 'sections/testimonials';
+@import 'sections/faq';
+@import 'sections/portfolio';
+@import 'sections/get-started';
+@import 'sections/footer';

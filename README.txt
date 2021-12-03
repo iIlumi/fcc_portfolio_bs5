@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8
 === (0:00:00) Part 1: Intro to Website Project       
 === (0:02:13) Part 2-1: SASS Setup
 === (0:19:27) Part 2-2: Customizing Bootstrap                       
- (0:35:39) Part 3: File structure
+=== (0:35:39) Part 3: File structure
  (0:43:32) Part 4: The Navbar Section
  (1:13:25) Part 5: The Intro Section
  (1:57:00) Part 6: The Companies Section
