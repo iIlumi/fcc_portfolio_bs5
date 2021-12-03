@@ -46,13 +46,47 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@keyframes pulse-border {
+.display-3--title {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-image: -webkit-gradient(linear, left top, right top, from(#9926f0), to(#d122e3));
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@media (max-width: 991.98px) {
+  .display-3--title {
+    font-size: 1.2rem;
+  }
+}
+
+@-webkit-keyframes pulse-border {
   0% {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
     opacity: 1;
   }
   100% {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-border {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     opacity: 0;
   }
 }
@@ -65,15 +99,18 @@
   height: 6rem;
   border: 0.55rem solid #fff;
   border-radius: 50%;
-  animation: pulse-border 1.5s linear infinite;
+  -webkit-animation: pulse-border 1.5s linear infinite;
+          animation: pulse-border 1.5s linear infinite;
 }
 
 .border-animation--border-1 {
-  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .border-animation--border-2 {
-  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .btn-rounded {
@@ -89,7 +126,8 @@
   position: absolute;
   right: 5px;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   background-color: #9926f0;
   width: 2.5rem;
   height: 2.5rem;
@@ -103,6 +141,7 @@
 }
 
 .btn-rounded:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(153, 38, 240, 0.95)), to(rgba(209, 34, 227, 0.95)));
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
   color: #fff;
 }
@@ -118,6 +157,7 @@
 }
 
 #navMenu {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(153, 38, 240, 0.95)), to(rgba(209, 34, 227, 0.95)));
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
@@ -132,6 +172,7 @@
 }
 
 .intro-section {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(153, 38, 240, 0.95)), to(rgba(209, 34, 227, 0.95)));
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
@@ -164,6 +205,41 @@
 }
 
 .companies__logo-box img:hover {
-  filter: grayscale(120);
+  -webkit-filter: grayscale(120);
+          filter: grayscale(120);
+}
+
+.services {
+  padding: 1rem 0;
+}
+
+.services__content {
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.services__content .icon {
+  font-size: 2.5rem;
+  color: #9926f0;
+}
+
+.services__content p {
+  font-size: 1rem;
+}
+
+.services__picture {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .services__content {
+    margin-top: 0;
+  }
+  .services__content .icon {
+    font-size: 1.5rem;
+  }
+  .services__content p {
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

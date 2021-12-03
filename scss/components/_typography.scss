@@ -18,10 +18,8 @@
 
   font-size: 1.4rem;
   text-transform: none;
-}
 
-@include media-breakpoint-down(lg) {
-  .display-2--description {
+  @include media-breakpoint-down(lg) {
     font-size: 1rem;
   }
 }
@@ -54,3 +52,23 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.display-3--title {
+  display: inline-block;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  background-image: linear-gradient(to right, $primary, $secondary);
+  color: transparent;
+  // -webkit-text-fill-color: transparent;
+
+  // Phải tự add tay ? autoprefix của live sass ko tự add được
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  @include media-breakpoint-down(lg) {
+    font-size: 1.2rem;
+  }
+}
