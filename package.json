@@ -1,0 +1,30 @@
+{
+  "name": "fcc_portfolio_bs5",
+  "version": "1.0.0",
+  "description": "Learning BSv5 w Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iIlumi/fcc_portfolio_bs5.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "danhtran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIlumi/fcc_portfolio_bs5/issues"
+  },
+  "homepage": "https://github.com/iIlumi/fcc_portfolio_bs5#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.3"
+  }
+}
