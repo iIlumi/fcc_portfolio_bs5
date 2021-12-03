@@ -242,4 +242,11 @@
     font-size: 0.8rem;
   }
 }
+
+.testimonials {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(153, 38, 240, 0.95)), to(rgba(209, 34, 227, 0.95)));
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  position: relative;
+  padding: 0;
+}
 /*# sourceMappingURL=style.css.map */
