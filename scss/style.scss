@@ -1,9 +1,10 @@
 @import './custom';
 
-@import 'components/animations';
-@import 'components/button';
 @import 'components/mixins';
 @import 'components/typography';
+
+@import 'components/animations';
+@import 'components/button';
 
 @import 'sections/navbar';
 @import 'sections/intro-section';
