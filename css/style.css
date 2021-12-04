@@ -399,8 +399,9 @@
 }
 
 .contact-box__icon {
-  width: 2rem;
+  width: 4rem;
   stroke: #9926f0;
+  padding-top: 0.5rem;
 }
 
 .contact-box__info {
@@ -417,5 +418,17 @@
 .contact-box__info--subtitle {
   color: #6c757d;
   font-size: 1rem;
+}
+
+@media (max-width: 575.98px) {
+  .contact-box__icon {
+    width: 2rem;
+  }
+  .contact-box__info--title {
+    font-size: 1rem;
+  }
+  .contact-box__info--subtitle {
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
