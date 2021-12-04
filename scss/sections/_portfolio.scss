@@ -6,10 +6,16 @@
   }
 }
 
+// ờ màn ipad, xoay ngang hình sẽ hơi scale
+// Fix bằng set max-height có vẻ chưa ổn lắm
+// Nếu hình kích thước nhỏ ko đủ max height sẽ có vấn đề
+// overflow lu1cna2y có khả năng lòi vô
+
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+//   height: 18.5rem;
+  max-height: 18.5rem;
 
   border-top: 0.5rem solid lighten($primary, 20%);
   margin-bottom: 1.2rem;
@@ -20,7 +26,7 @@
   //   Xử lý chấp nhận strech hình ra
   img {
     width: 100%;
-    height: 100%;
+    // height: 100%;
   }
 
   &:hover {
