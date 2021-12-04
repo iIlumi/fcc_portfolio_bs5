@@ -1,6 +1,60 @@
 .testimonials {
   @include gradient;
-  position: relative;
-  
+  //   position: relative;
+
   padding: 0;
+}
+
+.testimonials__card {
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  //   height: auto;
+
+  text-align: center;
+  background-color: rgba($white, 0.8);
+
+  i {
+    font-size: 1.5rem;
+    color: rgba($primary, 0.7);
+  }
+
+  .ratings {
+    i {
+      font-size: 1rem;
+      color: rgba($primary, 0.7);
+    }
+  }
+}
+
+.testimonials__picture {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 6rem;
+  height: 6rem;
+
+  img {
+    border: 0.325rem solid rgba($primary, 0.7);
+  }
+}
+
+.testimonials__name {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+
+  color: $white;
+
+  text-align: center;
+  font-weight: 500;
+
+  h3 {
+    padding-top: 0.8rem;
+    text-transform: capitalize;
+  }
+
+  p {
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+  }
 }
