@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8
 === (2:41:20) Part 8: Testimonials Section
 === (3:11:10) Part 9: The FAQ Section
 === (3:20:13) Part 10: The Portfolio Section
- (3:45:21) Part 11: Getting Started Section
+=== (3:45:21) Part 11: Getting Started Section
  (4:10:24) Part 12: The Footer Section
 
 
@@ -30,3 +30,4 @@ https://www.youtube.com/watch?v=iJKCj8uAHz8
 1:39:00
 2:18:50
 3:43:30
+3:59:00
