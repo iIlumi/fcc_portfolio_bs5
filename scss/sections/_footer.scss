@@ -45,6 +45,10 @@
   }
 }
 
+.footer-bottom {
+  background-color: $black;
+}
+
 @include media-breakpoint-down(sm) {
   .contact-box__icon {
     width: 2rem;
