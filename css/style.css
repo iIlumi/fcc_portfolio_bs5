@@ -435,6 +435,26 @@
   font-size: 1rem;
 }
 
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.company-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.company-list a:hover {
+  color: #9926f0;
+}
+
 @media (max-width: 575.98px) {
   .contact-box__icon {
     width: 2rem;
